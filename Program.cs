@@ -1,23 +1,39 @@
-﻿/*
-Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
-a = 5; b = 7 -> max = 7
-a = 2 b = 10 -> max = 10
-a = -9 b = -3 -> max = -3
-
-Console.Write("первое число ");
+﻿
+/*
+Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+2, 3, 7 -> 7
+44 5 78 -> 78
+22 3 9 -> 22
+*/
+/*
+Console.WriteLine("введите первое число ");
 int firstNumber = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("второе число ");
+Console.WriteLine("введите второе число ");
 int secondNumber = Convert.ToInt32(Console.ReadLine());
 
-if(firstNumber < secondNumber)
+Console.WriteLine("введите третье число ");
+int thirdNumber = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine(firstNumber + "меньше" + secondNumber);
+Console.WriteLine("максимальное число");
+int maxNumber = 1;
 
-else
+if(firstNumber > secondNumber && firstNumber > thirdNumber)
 
-Console.WriteLine(firstNumber + "больше" + secondNumber);
+firstNumber = maxNumber;
+
+Console.WriteLine("максимальное число" + maxNumber);
+
+if(secondNumber > firstNumber && secondNumber > thirdNumber)
+
+secondNumber = maxNumber;
+
+Console.WriteLine("максимальное число" + maxNumber );
+
+if(thirdNumber > firstNumber && thirdNumber > secondNumber) 
+
+thirdNumber = maxNumber; 
+
+Console.WriteLine("максимальное число" + maxNumber );
+
 */
-
-
-
