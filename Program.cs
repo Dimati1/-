@@ -3,7 +3,7 @@
 a = 5; b = 7 -> max = 7
 a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3
-*/
+
 Console.Write("первое число ");
 int firstNumber = Convert.ToInt32(Console.ReadLine());
 
@@ -17,7 +17,7 @@ Console.WriteLine(firstNumber + "меньше" + secondNumber);
 else
 
 Console.WriteLine(firstNumber + "больше" + secondNumber);
-
+*/
 
 
 
